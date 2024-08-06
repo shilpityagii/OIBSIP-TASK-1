@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macarons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ball"></div>
+    <section>
+        <header class="red">
+            <a href="#"><img src="D.jpeg"></a>
+        <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Our Menu</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="#">FAQ</a></li>
+         </ul>
+        </header>
+        
+
+        <div class="container">
+
+            <div class="content">
+                <h1> Shop  <span>Macarons</span></h1>
+                <h2>Order Macarons for your party</h2>
+                <p>Our Macarons are now available for delivery across india within 48-72 hours.</p>
+                <a href="#">Order Now</a>
+            </div>
+            <div class="products">
+                <img src="C.png" class="macarons">
+            </div>
+            <ul class="click">
+                <li><img src="E.png" onclick="imgSlider('E.png');"></li>
+                <li><img src="B.jpeg" onclick="imgSlider('B.jpeg');"></li>
+                <li><img src="A.png" onclick="imgSlider('A.png');"></li>
+            </ul>
+        </div>
+    
+ <script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector('.macarons').src=anything;
+    }
+ </script>
+</section>
+</body>
+</html>
